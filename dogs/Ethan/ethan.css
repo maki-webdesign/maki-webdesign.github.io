@@ -12,8 +12,12 @@ body {
     font-size: 30px;
 }
 
-.card {
+.names1 {
+    
+    border: solid black;
+}
 
+.card {
     margin-left:5%;
     margin-right: 5%;
     margin-bottom: 10%;
