@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(175, 175, 175);
-}
+    background-image: url("images/polymesh13_04_01.jpg");
+    background-repeat: no-repeat;
+  }
 
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
