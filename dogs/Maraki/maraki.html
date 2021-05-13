@@ -1,117 +1,130 @@
 <!DOCTYPE html>
-<!--Sample HTML page about dogs-->
+
 <html>
 
 <head>
+  
+<!--Meta Tags-->
+  
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <!--Tittle-->
+  
   <title>Team 2: HTML page about dogs</title>
-  <!--Mark Commen: the head tag contains just meta or invisible data about the document. Therefore, div and p tags doesn't belong here as it is something you intend for people to see.-->
-  <div class="name">
-    <br />
-    <a href="https://pm1.narvii.com/6569/becfa13b8960ba6610bf9d15508d5555a92178f6_hq.jpg" class="web">Maraki's section</a>
-    <br />
-  </div>
-  <p>^^I didnt know what to add for hover so I linked one of my favorite react memes</p>
-  <!--Mark Comment: in maraki.css you should add a space between selector and the open curly bracket.-->
   <link rel="stylesheet" href="maraki.css">
-  <!--Mark Comment: it looks like you have a closing style tag here but no opening style tag (nor the contents you'd put in the style block).-->
-  </style>
 </head>
 
 <body>
-
-  <!--Mark Comment: try not to use the same name for both a class and an id.-->
-  <a href="#desc" class="desc">Take Cute Doggo Survey</a>
-  <h2> I don't have any of my own doggos, but I imagine myself owning a pitbull & a doberman....and a dolphin</h2>
-
-  <!--List starts-->
-
-  <p> Possible reasons why people don't own a dog:</p>
-  <div class="possiblereasons">
-    <ul>
-      <li> They're allergic to the fur</li>
-      <li> Alot of people have a fear of anything that moves or breathes</li>
-      <li> They're cat people</li>
-      <li> Some can't even afford to take care of themselves let alone another living being</li>
-      <li> Some people are just lame</li>
+  <!--NavBar w/Weblinks-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">Maraki Yewondwossen</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/maki-webdesign">My Website</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://maki-webdesign.github.io/dogs/Darcie/darcie.html">Darcie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://maki-webdesign.github.io/dogs/Ethan/Ethan.html">Ethan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://maki-webdesign.github.io/dogs/Cami/cami.html">Cami</a>
+      </li>
     </ul>
+  </nav>
+  <!--End Navbar-->
+  
+<!--Jumbotron-->
+  
+  <div class="jumbotron">
+    <div class="container">
+      <h1>DOGGOS</h1>
+      <div>My input on doggos </div>
+    </div>
   </div>
+<!--End Jumbotron-->
+  
   <!-- Table -->
 
-  <p>Dogs that seem terrifying but are<span><em><strong style="color:#FF0000;"> NOT</strong></em></span>... except for Chihuahuas, the're always terrifying:</p><br />
+  <h2 style="margin-top: 80px;">Dogs that seem terrifying but are<span><em><strong style="color:#FF0000;"> NOT</strong></em></span>... except for Chihuahuas, the're always terrifying:</h2><br />
 
-  <div class="dogsarenice">
-    <table style="width: 100%; border-collapse: collapse; width:fit-content;">
-      <tr style="border: 1px solid black padding; text-align: left;">
-        <th style="border: 1px solid black;">Doggos</th>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;">Pitbull</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;">Doberman</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;">German Shepherd</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;">Siberian Husky</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;">Rottweiler</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;">Bulldog</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;text-align: left;"><span><em><strong style="color:#FF0000;">Any other dog breed in the Universe (except Chihuahuas)</strong></em></span></td>
-      </tr>
-      <!--Mark Comment: careful about nested vs. overlapping tags. You want the closing table tag to come before the closing div tag.-->
-  </div>
-
+  <table style="width: 100%; border-collapse: collapse; width:fit-content;">
+    <tr style="border: 1px solid black padding; text-align: left;">
+      <th style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">Doggos</th>
+    </tr>
+    <tr style="background-color: rgba(220, 198, 224, 1)">
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">Pitbull</td>
+    </tr>
+    <tr>
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">Doberman</td>
+    </tr>
+    <tr style="background-color: rgba(220, 198, 224, 1)">
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">German Shepherd</td>
+    </tr>
+    <tr>
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">Siberian Husky</td>
+    </tr>
+    <tr style="background-color: rgba(220, 198, 224, 1)">
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">Rottweiler</td>
+    </tr>
+    <tr>
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;">Bulldog</td>
+    </tr>
+    <tr style="background-color: rgba(220, 198, 224, 1)">
+      <td style="border: 2px solid rgb(191, 223, 243); text-align: left; padding: 6px;"><span><em><strong style="color:#FF0000;">Any other dog breed in the Universe (except Chihuahuas)</strong></em></span></td>
+    </tr>
   </table>
+  
+  <!--End Table-->
 
-  <!--Mark's Comment: awesome! a form!-->
   <!--Logo for form-->
-
   <img src="https://i.etsystatic.com/9408886/r/il/b07ff6/1823816525/il_570xN.1823816525_mb5q.jpg" alt="Dog silhouettes" title="cutest doggos">
   <form action="maki-design.github.io" method="post">
-
-    <!--Mark's Comment: I've noticed you use a lot of line breaks (br tags), and, which this isn't incorrect, I think you should try to get in the habit of declaring sections of text as paragraphs or divs instead. That way when you do CSS stuff, you can style the text more readily.-->
 
     <p id="desc">
     <p>Which <span style="color:rgb(255,0,0)"> Doggo</span> is the cutest?</p><br />
 
-    <!--Adding radio buttons with images-->
-    <!--Mark Comment: add double quotes around attribute values.-->
-    <div class="cuties">
-      <input type="radio" name="ans" value="Baby German Shepherd">
-      <img src="https://i.pinimg.com/originals/b6/55/70/b6557063e8051638b806231e59e072b8.jpg" height=100 width=100>Baby German Shepherd<br />
+    <input type="radio" name="ans" value="Baby German Shepherd">
 
-      <input type="radio" name="ans" value="Baby Pitbull">
-      <img src="http://images6.fanpop.com/image/photos/39600000/Pitbull-Puppy-puppies-39611390-480-640.jpg" height=112 width=100>Baby Pitbull<br />
+    <img src="https://i.pinimg.com/originals/b6/55/70/b6557063e8051638b806231e59e072b8.jpg" height=100 width=100>Baby German Shepherd<br />
 
-      <input type="radio" name="ans" value="Baby Doberman">
-      <img src="https://i.pinimg.com/originals/a8/0c/c1/a80cc184c43907991ff33ee4fcd224f2.jpg" height=100 width=100>Baby Doberman<br />
+    <input type="radio" name="ans" value="Baby Pitbull">
 
-      <input type="radio" name="ans" value="Baby Corgi">
-      <img src="https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-13.jpg" height=100 width=100>Baby Corgi<br />
+    <img src="http://images6.fanpop.com/image/photos/39600000/Pitbull-Puppy-puppies-39611390-480-640.jpg" height=112 width=100>Baby Pitbull<br />
 
-      <input type="radio" name="ans" value="Baby Huskie">
-      <img src="https://i.pinimg.com/originals/39/58/c5/3958c57ab5e482d77694fd880276535b.png" height=119 width=100>Baby Huskie<br />
+    <input type="radio" name="ans" value="Baby Doberman">
 
-      <input type="radio" name="ans" value="Baby Weiner">
-      <img src="https://i.pinimg.com/originals/8c/c1/fd/8cc1fd1df8712ac33966ec371a3af936.jpg" height=110 width=120>Baby Wiener<br />
-    </div>
+    <img src="https://i.pinimg.com/originals/a8/0c/c1/a80cc184c43907991ff33ee4fcd224f2.jpg" height=100 width=100>Baby Doberman<br />
+
+    <input type="radio" name="ans" value="Baby Corgi">
+
+    <img src="https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-13.jpg" height=100 width=100>Baby Corgi<br />
+
+    <input type="radio" name="ans" value="Baby Huskie">
+
+    <img src="https://i.pinimg.com/originals/39/58/c5/3958c57ab5e482d77694fd880276535b.png" height=119 width=100>Baby Huskie<br />
+
+    <input type="radio" name="ans" value="Baby Weiner">
+
+    <img src="https://i.pinimg.com/originals/8c/c1/fd/8cc1fd1df8712ac33966ec371a3af936.jpg" height=110 width=120>Baby Wiener<br />
 
     <!--Adding Submition Form-->
     <div class="submit">
       <br />My Doggo: <input type="text" name="Dog"><br />
 
       <input type="submit">
-<!--Mark Comment: form after div since it encompasses the div. Also, be sure to look at the debug panel in VSCode and resolve any errors beforing submitting!-->
+    </div>
   </form>
-  </div>
+  
+  <!--End submit form-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
