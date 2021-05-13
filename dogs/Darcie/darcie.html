@@ -25,7 +25,7 @@
     }
 
     h1:hover {
-      color: rgb(211, 238, 255);
+      color: rgb(178, 62, 207);
     }
 
     img {
@@ -41,7 +41,7 @@
 <body>
   <!-- NavBar -->
   <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top justify-content-between">
-    
+
     <!-- Logo -->
     <a class="navbar-brand" href="https://maki-webdesign.github.io/dogs/darcie/darcie.html">DN</a>
 
@@ -54,45 +54,64 @@
       <!-- Dropdown -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-          Dropdown link
+          My Stuff
         </a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Link 1</a>
-          <a class="dropdown-item" href="#">Link 2</a>
-          <a class="dropdown-item" href="#">Link 3</a>
+          <a class="dropdown-item" href="https://darcienelson.com">Website</a>
         </div>
       </li>
     </ul>
   </nav>
   <br>
 
-
-
   <!-- Jumbotron -->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1>Dogs!</h1>
-      <p>This is Darcie's contribution to the group assignment.</p>
+      <h1>DOGS!</h1>
+      <div>This is Darcie's contribution to the group assignment.
+      </div>
     </div>
   </div>
 
   <!-- General text -->
   <div class="container">
-    <p> I'm really not much of an animal person, but if I had to choose between dogs and cats... <br>
-      I'm definitely a <em><strong> dog </strong></em> person. </p>
-    <div> A few reasons why I'm not an animal person: </div>
 
-    <!-- Unordered List -->
-    <ul>
-      <li> I'm allergic to everything </li>
-      <li> They lick EVERYWHERE then lick you </li>
-      <li> I'm too busy to clean up after them </li>
-    </ul>
+    <div class="row bg-light rounded p-2 mt-3">
+      <div class="col">
+        <p>I'm really not much of an animal person, but if I had to choose between dogs and cats...
+        </p>
+        <div>I'm definitely a <em><strong> dog </strong></em> person.
+        </div>
+      </div>
+    </div>
+
+    <div class="row bg-light rounded p-2 mt-3">
+      <div class="col-md-3">
+        <div> A few reasons why I'm not an animal person: </div>
+      </div>
+
+      <!-- Unordered List -->
+      <div class="col-md-9">
+        <ul>
+          <li> I'm allergic to everything </li>
+          <li> They lick EVERYWHERE then lick you </li>
+          <li> I'm too busy to clean up after them </li>
+        </ul>
+      </div>
+    </div>
 
     <!-- Image -->
-    <p> Here's a random dog image I thought was <span style="color:rgb(43, 120, 165)"> amusing</span>:</p>
-    <img src="images/Darcie_dogPic.jpg" width="450" alt="image of a yawning basset hound with fully-extended ears"
-      title="Dumbo dog?">
+    <div class="row bg-light rounded p-2 mt-3">
+      <div class="col">
+        <div class="media">
+          <div class="media-body p-5 d-flex align-self-center">
+            <p> Here's a random dog image I thought was <span style="color:rgb(43, 120, 165)"> amusing</span>:</p>
+          </div>
+          <img src="images/Darcie_dogPic.jpg" class="rounded p-1 img-fluid d-flex justify-content-end"
+            alt="image of a yawning basset hound with fully-extended ears" title="Dumbo dog?">
+        </div>
+      </div>
+    </div>
 
     <!-- Table Title -->
     <h4 id="dogNames"> RANDOM SEARCH of DOG NAMES </h4>
@@ -100,8 +119,10 @@
     <!-- start Table -->
     <table style="border-collapse: collapse; width:fit-content;">
       <tr style="border: 1px solid rgb(191, 223, 243); text-align: left; padding: 8px;">
-        <th style="border: 1px solid rgb(191, 223, 243); text-align: left; padding: 8px;"> Most Popular Dog Names </th>
-        <th style="border: 1px solid rgb(191, 223, 243); text-align: left; padding: 8px;"> Least Popular Dog Names </th>
+        <th style="border: 1px solid rgb(191, 223, 243); text-align: left; padding: 8px;"> Most Popular Dog Names
+        </th>
+        <th style="border: 1px solid rgb(191, 223, 243); text-align: left; padding: 8px;"> Least Popular Dog Names
+        </th>
       </tr>
       <tr style="background-color: rgba(140, 182, 207, 0.849);">
         <td style="border: 1px solid rgb(191, 223, 243); text-align: left; padding: 8px;"> Bella </td>
@@ -129,10 +150,10 @@
       </tr>
     </table>
     <!-- end Table -->
-
-    <br>
-    <br>
   </div>
+  <br>
+  <br>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
