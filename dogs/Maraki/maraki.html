@@ -84,13 +84,15 @@
 
   <!--Logo for form-->
   <img src="https://i.etsystatic.com/9408886/r/il/b07ff6/1823816525/il_570xN.1823816525_mb5q.jpg" alt="Dog silhouettes" title="cutest doggos">
+  <!--Mark Comment 5/16: I think you need to put https:// in the url-->
   <form action="maki-design.github.io" method="post">
 
-    <p id="desc">
+    <p id="desc"><!--Mark Comment 5/16: This p tag appears to be missing a closing /p down below somewhere-->
     <p>Which <span style="color:rgb(255,0,0)"> Doggo</span> is the cutest?</p><br />
 
     <input type="radio" name="ans" value="Baby German Shepherd">
 
+    <!--Mark Comment 5/16: Attributes have to use double quotes (height="100"), but, actually, you should get rid of the height and width attributes and put them into a style="height 100px, width: 100px;" attribute instead.-->
     <img src="https://i.pinimg.com/originals/b6/55/70/b6557063e8051638b806231e59e072b8.jpg" height=100 width=100>Baby German Shepherd<br />
 
     <input type="radio" name="ans" value="Baby Pitbull">
@@ -118,6 +120,7 @@
       <br />My Doggo: <input type="text" name="Dog"><br />
 
       <input type="submit">
+      <!--Mark Comment 5/16: The form submission is working; now you just need to create some code to catch the submission and do something. Need help with that?-->
     </div>
   </form>
   
